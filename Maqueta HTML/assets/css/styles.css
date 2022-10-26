@@ -1,0 +1,292 @@
+/*
+body{
+    background-image:url("../img/banner14.jpg");
+    background-position:initial;
+    background-size:cover ;
+}*/
+
+/*Navbar*/
+/*Color gardiente Navbar*/
+.navbar.navbar-expand-lg.bg-secondary{
+    /*background: rgb(245,239,249);
+    background: -moz-linear-gradient(0deg, rgba(245,239,249,1) 2%, rgba(50,39,65,1) 16%, rgba(36,21,41,1) 31%, rgba(48,19,56,1) 42%, rgba(194,114,145,1) 75%);
+    background: -webkit-linear-gradient(0deg, rgba(245,239,249,1) 2%, rgba(50,39,65,1) 16%, rgba(36,21,41,1) 31%, rgba(48,19,56,1) 42%, rgba(194,114,145,1) 75%);
+    background: linear-gradient(0deg, rgba(245,239,249,1) 2%, rgba(50,39,65,1) 16%, rgba(36,21,41,1) 31%, rgba(48,19,56,1) 42%, rgba(194,114,145,1) 75%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5eff9",endColorstr="#c27291",GradientType=1); */
+
+}
+.navbar.navbar-expand-lg{
+    background-color:rgb(99, 53, 99);
+}
+
+/*Transparencia y linea del recuadro de iconos redes*/
+.list-group-item{
+    --bs-list-group-bg:transparent;
+    --bs-list-group-border-width:"";
+}
+
+/*Color de los iconos redes*/
+.fa-brands.fa-square-facebook.fa-xl,
+.fa-brands.fa-square-instagram.fa-xl,
+.fa-brands.fa-square-twitter.fa-xl,
+.fa-brands.fa-square-github.fa-xl,
+.fa-solid.fa-user-lock.fa-2xl,
+.fa-solid.fa-user.fa-2xl,
+.fa-solid.fa-address-card.fa-xl{
+    color: white;
+}
+
+/*Colores al tocar icono redes*/
+.fa-brands.fa-square-facebook.fa-xl:hover{
+    color: rgb(247, 223, 255);
+}
+.fa-brands.fa-square-instagram.fa-xl:hover{
+    color: rgb(247, 223, 255);
+}
+.fa-brands.fa-square-twitter.fa-xl:hover{
+    color: rgb(247, 223, 255);
+}
+.fa-brands.fa-square-github.fa-xl:hover{
+    color: rgb(247, 223, 255);
+}
+.fa-solid.fa-user-lock.fa-2xl:hover,.fa-solid.fa-user.fa-2xl:hover{
+    color: rgb(247, 223, 255);
+}
+
+.fa-solid.fa-address-card.fa-xl:hover{
+    color: rgb(247, 223, 255);
+}
+
+/*Formulario contacto*/
+.modal-title.fcontacto{
+    color: rgb(160, 56, 117);
+} 
+
+.modal-body.fdatoscontacto{
+    color: rgb(92, 37, 92);
+}
+
+/*Formulario ingreso*/
+ .mb-3.row.fingreso{
+    color: rgb(92, 37, 92);
+ }
+
+ .form-control.mingrese{
+    color: darkgrey;
+ }
+
+.modal-title.flingreso{
+    color: rgb(160, 56, 117);
+}
+
+
+/*Botones edicion
+.btredes.fa-sharp.fa-solid.fa-pen-to-square.fa-2xl{
+    margin: 5px;
+    margin-top:-40px;
+}
+
+.btbanner.fa-sharp.fa-solid.fa-pen-to-square.fa-2xl{
+    
+}
+.btcontenido.fa-sharp.fa-solid.fa-pen-to-square.fa-2xl{
+    margin-left: 70%;
+} 
+
+.btacercademi.fa-sharp.fa-solid.fa-pen-to-square.fa-2xl{
+    margin-left: 93%;
+}*/
+
+      
+
+
+/*Margen del banner*/
+.banner{
+    margin-top:8%;
+}
+
+/*Barra footer Copyright*/
+.footer{
+    text-align: center;
+    position:relative;
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    color:white;
+    background-color:rgb(99, 53, 99);    
+   
+}
+
+
+/*Titul portfolio y subtitulo nombre*/
+.titulob{
+  text-align:center;
+  color: rgb(77, 9, 77);
+  margin-top: -18%;
+  margin-bottom: 18%;
+}
+
+.subtitu{
+    text-align: center;
+    color: rgb(237, 180, 245);
+    font-size: 40px;
+}
+
+.titulor{
+    text-align: center;
+    color: rgb(237, 180, 245);
+    font-size: 20px;
+}
+
+.acercademi{
+    color:rgb(240, 182, 219);
+}
+
+.card.mat-card{
+    border-color: #d4a7c7;
+    border-radius: 150px;
+    margin: 5px 5px;
+    padding: 20px;
+    background-color: #5e133c;
+}
+
+/*Secciones*/
+section.perfil{
+    padding-left: -22rem !important;
+    /*background-image: url("../img/img_prueba_5.jpg");*/
+    margin-top: -6%;
+    background-size: cover;   
+    color: rgb(201, 99, 187);
+}
+
+
+section.experiencia{
+    margin-top: 10%;
+     /*background-image: url("../img/img_prueba_5.jpg");*/
+    background-size: cover;  
+    color: rgb(160, 56, 117);
+    
+}
+
+section.educacion{
+    margin-top: 5%;
+     /*background-image: url("../img/img_prueba_5.jpg");*/
+    background-size: cover;  
+    color: rgb(160, 56, 117);
+}
+
+section.habilidades{
+    margin-top: 5%;
+   /*background-image: url("../img/img_prueba_5.jpg");*/
+    background-size: cover;  
+    color: rgb(160, 56, 117);
+}
+
+section.proyectos{
+    margin-top: 5%;
+ /*background-image: url("../img/img_prueba_5.jpg");*/
+    background-size: cover;  
+    color: rgb(160, 56, 117);
+}
+
+section.cv{
+    margin-top: 5%;
+  /*background-image: url("../img/img_prueba_5.jpg");*/
+     background-size: cover;  
+     color: rgb(160, 56, 117);
+     margin-left: 25rem;
+}
+
+/*Grid administracion*/
+section.administracion{
+    margin-top:10%;
+    padding-left: 0.3rem !important;
+}
+
+.list-group-item{
+    --bs-list-group-color: #74114e;
+    --bs-list-group-active-bg: #8b568b;
+    --bs-list-group-active-border-color: #a36ca3;
+    --bs-list-group-action-hover-bg: rgb(206, 168, 190);
+ 
+}
+
+/*Boton secciones guardar-login-logout*/
+.btn.btn-secondary{
+    color: rgb(255, 255, 255);
+    background-color: rgb(114, 72, 103);    
+}
+
+.boton_formulario{
+    padding: 20px;
+}
+
+.reg{
+    color: rgb(199, 196, 199);
+}
+
+
+/*Color tarjeta*/
+.card.mb-3{
+    color:  rgb(92, 37, 92);
+    border-color: rgb(126, 79, 108);
+    background-color:floralwhite;
+}
+
+
+/*Barra de progreso*/
+.progress-bar{
+    --bs-progress-bar-bg: rgb(164, 139, 187);
+    color: antiquewhite;
+    text-align: center;
+    font-size: medium;    
+}
+
+
+/*Botons edicion*/
+
+.fa-solid.fa-circle-xmark{
+    color: grey;
+}
+
+.fa.fa-pen{
+    color: grey;
+}
+
+.btn.btn-dark{
+    background-color:grey;
+    border-color:grey;
+    margin-right: 1rem;
+}
+
+.btn-editredes{
+    margin-right: 1rem;
+}
+
+.btn-editbanner{
+    margin-left: 80rem;
+}
+
+.btn-editacercademi{
+    margin-left: 50rem;
+}
+.btn-editexp{
+    margin-left: 30rem;
+}
+
+.btn-editeduc{
+    margin-left: 30rem;
+}
+
+.btn-edithabi{
+    margin-left: 65rem;
+}
+
+.btn-editpro{
+    margin-left: 30rem;
+}
+
+.btn-editcv{
+    margin-left: 30rem;
+}
+

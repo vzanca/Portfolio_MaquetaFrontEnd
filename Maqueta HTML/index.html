@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Vanesa Zanca</title>
+
+    <!-- Enlace de styles CSS -->
+ <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <!-- CSS only bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/feeaba085d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar y logo Arg.Programa(fixed queda siempre la barra al bajar la pag) -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../Maqueta HTML/index.html">
+                <img src="../Maqueta HTML/assets/img/Logo_ArgPrograma.png" alt=" " width="160" height="" >
+            </a>
+            
+         <!-- Iconos redes sociales -->  
+         <ul class="list-group list-group-horizontal">
+          <a href="../Maqueta HTML/index.html"></a>
+            <li class="list-group-item"> <a href="https://www.instagram.com/vansi14/" target="_blank"> <i class="fa-brands fa-square-instagram fa-xl"></i></a></li>
+            <li  class="list-group-item"> <a href="https://www.facebook.com/vansi.z" target="_blank"> <i class="fa-brands fa-square-facebook fa-xl"> </i></a> </li>
+            <li class="list-group-item"> <a href="https://twitter.com/Giselvan" target="_blank"> <i class="fa-brands fa-square-twitter fa-xl"></i></a> </li>   
+            <li class="list-group-item"> <a href="https://github.com/vzanca" target="_blank"> <i class="fa-brands fa-square-github fa-xl"></i></a> </li>
+            <li  class="list-group-item"><i class="fa-solid fa-address-card fa-xl" type="button" data-bs-toggle="modal" data-bs-target="#contacto"></i></li>
+            <!-- Button trigger modal -->
+            <li class="list-group-item">
+              <i class="fa-solid fa-user-lock fa-2xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></li>
+         </ul>   
+        </div>
+     </nav>
+
+
+      <!-- Modal para contacto-->
+         <div class="modal" id="contacto" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title fcontacto">Datos para contactar</h5>
+              </div>
+              <div class="modal-body fdatoscontacto">
+                <p>Mail: vanesazanca14@gmail.com</p>
+                <p>Cel: 11-36600046</p>
+              </div>
+            </div>
+          </div>
+        </div>
+     
+     <!-- Modal para login-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title flingreso" id="exampleModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+       
+        
+        <!-- Formulario login --> 
+        <div class="modal-body bingreso">
+          <div class="mb-3 row fingreso">
+            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control mingrese" id="staticEmail" value ="Ingrese su Email">
+            </div>
+          </div>
+          <div class="mb-3 row fingreso">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword">
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer justify-content-center">
+          <button type="button" class="btn btn-secondary">Iniciar sesion</button>
+        </div>
+
+        <div class="modal-footer reg">
+          <i>Si no tenes cuenta registrate</i>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2" class="btn btn-secondary">Registrarse </button>
+        </div>
+       </div>
+      </div>
+    </div>
+
+
+     <!-- Modal para Registro-->
+     <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title flingreso" id="exampleModalLabel">Registro</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+         
+          
+          <!-- Formulario Registro --> 
+          <div class="modal-body bingreso">
+            <div class="mb-3 row fingreso">
+              <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control mingrese" id="staticEmail" value ="Ingrese su Email">
+              </div>
+            </div>
+            <div class="mb-3 row fingreso">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword">
+              </div>
+            </div>
+          </div>
+  
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn btn-secondary">Registrar datos</button>
+          </div>
+  
+          <div class="modal-footer reg">
+            <i>Si ya tenes cuenta Inicia sesion</i>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-secondary">Login</button>
+          </div>
+          </div>
+         </div>
+        </div>
+
+     </div>
+    
+     
+      <!-- Banner --> 
+          <div class="banner">  
+            <img src="../Maqueta HTML/assets/img/purpura.jpg" class="d-block w-100" alt="...">
+            <h1 class="titulob" style="font-size:60px">MI PORTFOLIO WEB</h1>     
+          </div>
+          
+
+          <!-- Seccion  perfil sobre mi -->
+          <section id="sobremi" class="perfil"> 
+            <div class="card mat-card">
+                <h4 class="subtitu">-Vanesa Gisele Zanca Rico-</h4>
+                <h5 class="titulor">Full Stack Developer Jr.</h5>
+           
+              <div class="row">
+                <div style="text-align: right;" class="col-4 mt-2"> 
+                  <img src="../Maqueta HTML/assets/img/Perfil2.jpg"  class="rounded w-50"  alt="..."> 
+                </div>
+            
+                <div class="col-8 mt-3">
+                  <h4>Acerca de mi...</h4>
+                  <h5> <span class="acercademi">Soy una persona muy responsable y capas, me adapto bien al trabajo en equipo.
+                    <h5>Siempre dispuesta a dar lo mejor en cada tarea asignada, creciendo y capacitandome para estar a la altura de quien me contrate.</h5>
+                    <h5>En cuanto al area de Sistemas, Programación y Tecnologia me gusta mucho la parte de diseño y desarrollo.</h5></span>
+                  </h5>
+                </div>
+              </div>       
+            </div>
+        </section>
+
+               <!-- Experiencia Laboral-->
+               <section id="experiencia"  class="experiencia"> 
+                <div class="container "> 
+
+                  <div class="row">
+                    <div class="col-12"> 
+                      <h2><i>Experiencia Laboral</i></h2>     
+                    </div>
+                    <div class="row">
+
+                      <div class="card mb-3" style="max-width: 540px">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../Maqueta HTML/assets/img/R.S VII.jpg" class="img-fluid rounded m-1" alt="...">
+                          </div> 
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title"> Agosto 2013- Diciembre 2014</h5>
+                              <p class="card-text">Región Sanitaria VII, Proyecto de Redes Perinatales- Supervisora y referente SIP (Sistema Informático Perinatal).</p>
+                                <p class="card-text"> Región Sanitaria VII, administrativa y secretaria del Sector Materno Infantil.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col"></div>
+   
+                      <div class="card mb-3" style="max-width: 540px">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../Maqueta HTML/assets/img/Ministerio de salud.jpg" class="img-fluid rounded m-1" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Diciembre 2014- Actualidad</h5>
+                              <p class="card-text">Supervisora, referente y capacitadora SIP (Sistema Informatico Perinatal) a nivel central Provincial en Regiones Sanitarias V, VII y XII en PMI (Programa Materno Infantil), actualmente Dirección de Salud Perinatal en la Dirección Provincial de Equidad de Género en Salud) Ministerio de la Salud de la Provincia de Buenos aires.</p>        
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../Maqueta HTML/assets/img/Sabores_pasteleros.jpg" class="img-fluid rounded m-1" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Enero 2020- Actualidad</h5>
+                              <p class="card-text">Emprendimiento personal de Pastelería- Sabores Pasteleros.</p>        
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col"></div>
+                   
+                    </div>
+                  </div>
+                </div>
+            </section>
+
+          
+
+                <!-- Educacion -->
+                <section id="educacion"  class="educacion"> 
+                  <div class="container ">
+  
+                    <div class="row">
+                      <div class="col-12"> 
+                        <h2><i>Educación</i></h2>     
+                      </div>
+                      <div class="row">
+                        <div class="card mb-3" style="max-width: 540px">
+                          <div class="row g-0">
+                            <div class="col-md-4">
+                              <img src="../Maqueta HTML/assets/img/AP1.png" class="img-fluid rounded m-1" alt="...">
+                            </div> 
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title"> 2021- 2023</h5>
+                                <h6>Plan #ArgentinaPrograma</h6>
+                                <p class="card-text">Ministerio de Economía, Cámara de la Industria Argentina del Software (CESSI) e Instituto Nacional de Tecnología Industrial (INTI).</p>
+                                <p>Programador Web full-stack junior(Título final)</p>
+                                  
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col"></div>
+     
+                        <div class="card mb-3" style="max-width: 540px">
+                          <div class="row g-0">
+                            <div class="col-md-4">
+                              <img src="../Maqueta HTML/assets/img/Ipac.png" class="img-fluid rounded m-1" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title"> 2019- 2021</h5>
+                                <h6>IPAC Gastronomía </h6>
+                                <p class="card-text">Escuela de Cocina y Pastelería, Morón.</p>
+                                <p>Pastelería Profesional(Título intermedio)
+                                  Maestría en Pastelería(Título final)</p>
+                                  
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    
+                        <div class="card mb-3" style="max-width: 540px">
+                          <div class="row g-0">
+                            <div class="col-md-4">
+                              <img src="../Maqueta HTML/assets/img/Unlu.png" class="img-fluid rounded m-1" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title"> 2008- 2019</h5>
+                                <h6>Universidad Nacional De Lujan </h6>
+                                <p class="card-text">Primero y segundo año cursados completos, algunas materias de tercero y cuarto</p>
+                                <p>Analista en Sistemas(Título intermedio)
+                                  Licenciado en Sistemas(Título final)</p>
+                                  
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col"></div>
+
+                        <div class="card mb-3" style="max-width: 540px">
+                          <div class="row g-0">
+                            <div class="col-md-4">
+                              <img src="../Maqueta HTML/assets/img/SanJudas.png" class="img-fluid rounded m-1" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title"> 2007- 2008</h5>
+                                <h6>Colegio San Judas Tadeo</h6>
+                                <p class="card-text">Estudio terceario, Ituzaingo. Primer año cursado completo</p>
+                                <p>Analista en Sistemas(Título final)</p>
+                                  
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="card mb-3" style="max-width: 540px">
+                          <div class="row g-0">
+                            <div class="col-md-4">
+                              <img src="../Maqueta HTML/assets/img/SanMartin.png" class="img-fluid rounded m-1" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title"> 2002- 2006</h5>
+                                <h6>Instituto José de San Martin</h6>
+                                <p class="card-text">Estudio secundario, Merlo.</p>
+                                <p>Bachiller Orientación Humanidades(Título final)</p>
+                                  
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col"></div>
+
+                      </div>
+                    </div>
+                  </div>
+              </section>
+
+
+
+              <!-- Habilidades -->
+              <section id="habilidades" class="habilidades"> 
+                <div class="container">
+                   
+                 
+                  <div class="row">
+                    <div class="col-12"> 
+                      <h2><i>Habilidades</i></h2>     
+                    </div>
+                    <div class="row">
+
+                      <div class="card mb-3">
+                        <div class="row g-0">   
+                          <div class="col">
+                            <div class="card-body">
+                              <h5 class="card-title"> Excel</h5>
+                              <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                              </div>
+                              <h5 class="card-title"> Access</h5>
+                              <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                              </div>
+                              <h5 class="card-title"> MySQL</h5>
+                              <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                              </div>
+                              <h5 class="card-title"> Assembler</h5>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                            </div>
+                              <h5 class="card-title"> Pascal</h5>
+                              <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                              </div>
+                            <h5 class="card-title"> Delphi</h5>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                            </div>
+                            <h5 class="card-title"> JavaScript</h5>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                            </div>
+                            <h5 class="card-title"> R-Analisis de Datos</h5>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                            </div>
+                            <h5 class="card-title"> SIP-Sistema Informatico Perinatal</h5>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>   
+                   
+                    </div>
+                  </div>
+                </div>
+            </section>
+
+
+                    <!-- Proyectos -->
+                    <section id="proyectos"  class="proyectos"> 
+                      <div class="container ">
+      
+                        <div class="row">
+                          <div class="col-12"> 
+                            <h2><i>Proyectos</i></h2>     
+                          </div>
+                          <div class="row">
+                            <div class="card mb-3" style="max-width: 540px">
+                              <div class="row g-0">
+                                <div class="col-md-4">
+                                  <img src="../Maqueta HTML/assets/img/Portfol.jpg" class="img-fluid rounded m-1" alt="...">
+                                </div> 
+                                <div class="col-md-8">
+                                  <div class="card-body">
+                                    <h5 class="card-title"> 2022-2023</h5>
+                                    <h6>Portfolio Web-Vanesa Gisele Zanca Rico</h6>
+                                    <p class="card-text"> Proyecto final del Plan #ArgentinaPrograma (segunda etapa)</p>
+                                    <p>link</p>
+                                      
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col"></div>
+                        </div>
+                      </div>
+                  </section>
+                  
+
+                    <!-- Cv -->
+                    <section id="cv"  class="cv"> 
+                      <div class="container ">
+                        <div class="row">
+                          <div class="col-12"> 
+                            <h2><i>Curriculum Vitae</i></h2>     
+                          </div>
+                          <div class="row">
+                            <div class="card mb-3" style="max-width: 540px;">
+                              <div class="row g-0">
+                                <div class="col-md-4">
+                                  <img src="../Maqueta HTML/assets/img/CV.jpg" class="img-fluid rounded m-1" alt="...">
+                                </div> 
+
+                                <div class="col-md-8 text-center">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Mi Curriculum Vitae</h5>
+                                    <h6>Descargue aqui el CV en formato pdf.</h6>
+                                    <div id="acciones" class="aciones">
+                                      <button type="button" class="btn btn-dark">Descargar CV</button>
+                                    </div>        
+                                  </div>
+                                </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col"></div>
+                        </div>
+                      </div>
+                  </section>
+
+
+
+
+                
+
+                 
+
+          
+    <!--Footer-->
+          <footer class="footer"> <i >Copyright © 2022- Vanesa Gisele Zanca Rico</i></footer>
+
+         
+     
+
+
+    <!-- JavaScript Bundle with Popper bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
